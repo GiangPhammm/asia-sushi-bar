@@ -1,0 +1,125 @@
+# Travis CI configuration
+# make sure node and npm engines consistent with package.json
+
+language: node_js
+os: linux
+node_js: 12.11.1
+
+cache:
+  npm: true
+  directories:
+    - ~/.cache # Cypress binary
+    - .tmp/cache
+
+addons:
+  apt:
+    packages:
+      - libgconf-2-4 # dependency for cypress on linux
+
+branches:
+  only:
+    - master
+    - production
+    - release
+    - hotfix
+    - /^lab-[1-3]\//
+
+stages:
+  - name: test
+    if: (branch =~ /^master$|^release$|^hotfix$|^production$/) AND (type = pull_request)
+  - deploy
+  - name: publish
+    if: (branch = production) AND NOT (type = pull_request)
+
+before_install:
+  - npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+  - npm run secret
+
+# export CYPRESS_RECORD_KEY=$CYPRESS_RECORD_KEY
+
+jobs:
+  include:
+    - stage: test
+      name: build
+      env:
+        - FLAVOR=web_zattoo
+      # todo: use --production flag to omit install of dev dependencies
+      install:
+        - npm ci
+      script:
+        - npm run build
+
+    - stage: test
+      name: static
+      script:
+        - npm run test:static
+
+    - stage: test
+      name: functional
+      env:
+        - FLAVOR=web_zattoo
+      before_install:
+        - npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+        - export CYPRESS_RECORD_KEY=$CYPRESS_RECORD_KEY
+        - npm run secret
+      install:
+        - npm ci
+      script:
+        - npm run build:test
+        - npm run start:test & # run local server
+        - npm run start:test:staging & # run local server
+        - npm run test:e2e:cli:production -- --record false
+        - npm run test:e2e:cli:staging -- --record false
+        - kill $(jobs -p) || true
+
+    - &deploy
+      stage: deploy
+      if: (branch =~ ^master$|^release$|^hotfix$|^production$|^lab-[1-3]\/web_zattoo$) AND type != pull_request
+      env:
+        - FLAVOR=web_zattoo
+      # todo: use --production flag to omit install of dev dependencies
+      install: npm ci
+      script:
+        - npm run build
+        - npm run deploy
+
+    - <<: *deploy
+      if: (branch =~ ^master$|^release$|^hotfix$|^production$|^lab-[1-3]\/android_zattoo$) AND type != pull_request
+      env:
+        - FLAVOR=android_zattoo
+
+    - <<: *deploy
+      if: (branch =~ ^master$|^release$|^hotfix$|^production$|^lab-[1-3]\/android-eu_zattoo$) AND type != pull_request
+      env:
+        - FLAVOR=android-eu_zattoo
+
+    - <<: *deploy
+      if: (branch =~ ^master$|^release$|^hotfix$|^production$|^lab-[1-3]\/ios-eu_zattoo$) AND type != pull_request
+      env:
+        - FLAVOR=ios-eu_zattoo
+
+    - <<: *deploy
+      if: (branch =~ ^master$|^release$|^hotfix$|^production$|^lab-[1-3]\/ios-ch_zattoo$) AND type != pull_request
+      env:
+        - FLAVOR=ios-ch_zattoo
+
+    - <<: *deploy
+      if: (branch =~ ^master$|^release$|^hotfix$|^production$|^lab-[1-3]\/ios-de_zattoo$) AND type != pull_request
+      env:
+        - FLAVOR=ios-de_zattoo
+
+    - <<: *deploy
+      if: (branch =~ ^master$|^release$|^hotfix$|^production$|^lab-[1-3]\/windows_zattoo$) AND type != pull_request
+      env:
+        - FLAVOR=windows_zattoo
+
+    - <<: *deploy
+      if: (branch =~ ^master$|^release$|^hotfix$|^production$|^lab-[1-3]\/windows-desktop_zattoo$) AND type != pull_request
+      env:
+        - FLAVOR=windows-desktop_zattoo
+
+    - stage: publish
+      install:
+        - npm i @zattoo/zploy@1.0.0-rc.0 -g
+      script:
+        - zploy --gh_token=$GH_TOKEN;
