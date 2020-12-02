@@ -2,7 +2,7 @@
   "name": "asia-sushi-bar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://asiasushibar.com/home",
+  "homepage": ".",
   "dependencies": {
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
