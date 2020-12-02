@@ -2,19 +2,19 @@
   "name": "asia-sushi-bar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/GiangPhammm/asia-sushi-bar",
+  "homepage": "https://asiasushibar.com",
   "dependencies": {
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-router-sitemap": "^1.2.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-switch": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "CI": ""
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
