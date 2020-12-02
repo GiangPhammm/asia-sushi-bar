@@ -1,0 +1,61 @@
+# Travis CI configuration
+# make sure node and npm engines consistent with package.json
+
+language: node_js
+node_js: 12.11.1
+
+cache:
+  npm: true
+  directories:
+    - ~/.cache # Cypress binary
+    - .tmp/cache
+
+branches:
+  only:
+    - master
+
+stages:
+  - name: test
+    if: (branch = master) AND (type = pull_request)
+  - deploy
+  - name: publish
+    if: (branch = master) AND NOT (type = pull_request)
+
+before_install:
+  - npm run secret
+
+jobs:
+  include:
+    - stage: test
+      name: build
+      install:
+        - npm ci
+      script:
+        - npm run build
+
+    - stage: test
+      name: static
+      script:
+        - npm run test:static
+
+    - stage: test
+      name: functional
+      before_install:
+        - npm run secret
+      install:
+        - npm ci
+      script:
+        - npm run build:test
+        - npm run start:test & # run local server
+        - npm run start:test:staging & # run local server
+        - npm run test:e2e:cli:production -- --record false
+        - npm run test:e2e:cli:staging -- --record false
+        - kill $(jobs -p) || true
+
+    - &deploy
+      stage: deploy
+      if: (branch = master) AND type != pull_request
+      install: npm ci
+      script:
+        - npm run build
+        - npm run deploy
