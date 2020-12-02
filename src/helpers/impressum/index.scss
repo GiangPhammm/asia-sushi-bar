@@ -1,0 +1,29 @@
+.contact {
+  max-width: 600px;
+  margin: auto;
+  
+  &__item {
+    line-height: 2;
+  }
+
+  .item-key {
+    float: left;
+    display: block;
+    font-weight: bold;
+    min-width: 200px;
+  } 
+
+  @media screen and (max-width: 550px) {
+    &__item-wrapper {
+      margin-bottom: 10px;
+    }
+
+    &__item {
+      line-height: 1.5;
+    }
+
+    .item-key {
+      float: none;
+    }
+  }
+}

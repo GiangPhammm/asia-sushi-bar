@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #0a0908;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+p {
+  margin: 5px 0
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+
+}
+
+main {
+  margin: auto;
+}
+
+span {
+  display: block;
+}
+
+.main-content {
+  background: #f2f4f3; 
+
+  &-container {
+    max-width: 70rem;
+    margin: auto;
+    padding: 3rem 5rem 5rem;
+  }
+
+  &-title {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #6f1a07;
+  }
+
+  &-subtitle {
+    max-width: 40rem;
+    margin: 0 auto 30px;
+    font-size: 18px;
+  }
+
+  .tab-name {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    &-container {
+      padding: 3rem 2rem 5rem;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    font-size: 15px;
+
+    &-container {
+      padding: 2rem 1rem 3rem ;
+    }
+
+    &-title {
+      font-size: 30px;
+    }
+
+    &-subtitle {
+      font-size: 15px;
+    }
+
+    .tab-name {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+

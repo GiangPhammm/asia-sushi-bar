@@ -1,0 +1,38 @@
+{
+  "footerColumns": [
+    {
+      "column": "",
+      "items": [
+        {
+          "itemKey": "i1",
+          "logo": "/assets/images/logo/logo-white.png",
+          "alt": "asia-sushi-bar"
+        },
+        {
+          "itemKey": "i2",
+          "title": "Asiatische Küche"                
+        },
+        {
+          "itemKey": "i3",
+          "title": "Rudower Chaussee 12A, 12489 Berlin"                
+        },
+        {
+          "itemKey": "i4",
+          "title": "Tel: (030) 40745645"                
+        }
+      ]
+    },
+
+    {
+      "column": "Öffnungszeiten",
+      "items": [
+        {
+          "title": "Montag bis Freitag"
+        },
+        {
+          "title": "11:00 Uhr - 21:00 Uhr"
+        }
+      ]
+    }
+  ]
+}

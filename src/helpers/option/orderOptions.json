@@ -1,0 +1,26 @@
+{
+    "optionList": [
+        {
+            "key": "option1",
+            "title": "Anrufen",
+            "text": "Rufen Sie uns im Voraus an und holen Sie ab oder lassen Sie sich von uns beliefern",
+            "button": "030 40745645",
+            "button_relation": "nofollow",
+            "button_url": "tel:030 40745645"
+            
+        },
+
+        {
+            "key": "option2",
+            "title": "Online Bestellen",
+            "sub_title": "bei",
+            "text": "Sie können unser Essen bestellen und es über Lieferando liefern lassen",
+            "image": "/assets/images/logo/lieferando.png",
+            "image_alt": "liefer service lieferando",
+            "button": "Jetzt bestellen",
+            "button_relation": "nofollow",
+            "button_url": "https://www.lieferando.de/asia-sushi-bar-adlershof"
+        }
+        
+    ]
+}

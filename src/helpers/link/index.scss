@@ -1,0 +1,29 @@
+.link-cta {
+  margin-top: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  .link-text {
+    color: #6f1a07;
+    letter-spacing: 0px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: #5e503f;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    margin-top: 10px;
+
+    .link-text {
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "contactData": [
+        {
+            "key": "Vertretungsberechtigt: ",
+            "value": "Herr Tran Trung Hieu"
+        },
+
+        {
+            "key": "Adresse: ",
+            "value": "Rudower Chaussee 12A, 12489 Berlin"
+        },
+
+        {
+            "key": "Telefon: ",
+            "value": "(030) 40745645"
+        },
+    
+        {
+            "key":"Sitz der Gesellschaft: ",
+            "value": "Berlin"
+        },
+
+        {
+            "key": "Lieferzeiten: ",
+            "value": "Montag - Sonntag von 11:00 Uhr bis 21:00 Uhr"
+        }
+    ]
+}

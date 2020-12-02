@@ -1,0 +1,37 @@
+{
+  "footerInfo": [
+    {
+      "conditions": [
+        {
+          "key": "policy",
+          "title": "Datenschutzerklärung",
+          "url": "/dsgvo"
+        }
+      ]
+    },
+    {
+      "media": [
+        {
+          "url": "https://de-de.facebook.com/Asia-Sushi-Bar-355387961310604/",
+          "logo": "/assets/images/social-media/facebook.png",
+          "alt": "facebook"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Asia+Sushi+Bar/@52.4326843,13.5330423,17z/data=!3m1!4b1!4m5!3m4!1s0x47a8462fa1bbd3d1:0x6e3eee8ce9af1639!8m2!3d52.432681!4d13.535231",
+          "logo": "/assets/images/social-media/google.png",
+          "alt": "google"
+        },
+        {
+          "url": "https://www.yelp.de/biz/asia-sushi-bar-berlin-2",
+          "logo": "/assets/images/social-media/yelp.png",
+          "alt": "yelp"
+        },
+        {
+          "url": "https://foursquare.com/v/asiasushibar/55927fb4498e3b17119d0c93",
+          "logo": "/assets/images/social-media/foursquare.png",
+          "alt": "foursquare"
+        }
+      ]
+    }
+  ]
+}

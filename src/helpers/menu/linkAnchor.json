@@ -1,0 +1,40 @@
+{
+    "anchorList": [
+        {
+            "text": "Vorspeise",
+            "url": "#starters"
+        },
+        {
+            "text": "Pho - Reisbandnudel Suppe",
+            "url": "#pho"
+        },
+        {
+            "text": "Gebratene Nudeln",
+            "url": "#wok"
+        },
+        {
+            "text": "Hauptspeise",
+            "url": "#mainCourse"
+        },
+        {
+            "text": "Sushi Menü",
+            "url": "#sushiMenu"
+        },
+        {
+            "text": "Nigiri",
+            "url": "#sushiNigiri"
+        },
+        {
+            "text": "Maki",
+            "url": "#sushiMaki"
+        },
+        {
+            "text": "Inside Out",
+            "url": "#sushiIO"
+        },
+        {
+            "text": "Sushi gebacken ",
+            "url": "#sushiFried"
+        }
+    ]
+}

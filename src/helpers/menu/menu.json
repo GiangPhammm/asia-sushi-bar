@@ -1,0 +1,357 @@
+{
+  "menuItems": [
+    {
+      "sectionId": "starters",
+      "sectionName": "Vorspeise",
+      "sectionImage": "/assets/images/food/spring-rolls.jpg",
+      "sectionImageAlt": "spring rolls frühlingsrolle",
+      "sectionItems": [
+        {
+            "title": "Frühlingsrollen (6 Stück)",
+            "price": "2,50 €"
+        },
+        {
+            "title": "Sauer-Scharf Suppe",
+            "price": "2,50 €"
+        },
+        {
+            "title": "Gemüsesuppe",
+            "price": "3,50 €"
+        },
+        {
+            "title": "Tom Kha Gai Suppe mit Huhn",
+            "price": "3,50 €"
+        },
+        {
+            "title": "Tom Kha Gung Suppe mit Garnelen",
+            "price": "3,50 €"
+        },
+        {
+            "title": "Tom Kha Suppe mit Tofu",
+            "price": "3,50 €"
+        },
+        {
+            "title": "Glasnudelsalat mit Huhn",
+            "price": "7,00 €"
+        },
+        {
+            "title": "Glasnudelsalat mit Tofu",
+            "price": "7,00 €"
+        }
+    ]
+    },
+
+    {
+      "sectionId": "pho",
+      "sectionName": "Pho - Reisbandnudel-Suppe",
+      "sectionImage": "/assets/images/food/pho.png",
+      "sectionImageAlt": "pho noodle nudeln",
+      "sectionNote": "Glutenfrei",
+      "sectionItems": [
+        {
+            "title": "Pho Ga mit Huhn",
+            "price": "7,90 €"
+        },
+        {
+            "title": "Pho Bo mit Rind",
+            "price": "7,90 €"
+        },
+        {
+            "title": "Pho mit Tofu vegetarisch",
+            "price": "7,90 €"
+        }
+      ]
+    },
+
+    {
+      "sectionId": "wok",
+      "sectionName": "Gebratene Nudeln",
+      "sectionImage": "/assets/images/food/china-box.jpg",
+      "sectionImageAlt": "china box pfanne",
+      "sectionNote": "Enthält Eier, Gluten, Soja",
+      "sectionItems": [
+        {
+            "title": "Gebratene Nudeln mit Hühnerfleisch",
+            "price": "4,90 €"
+        },
+        {
+            "title": "Gebratene Nudeln mit Frühlingsrolle vegetarisch",
+            "price": "4,90 €"
+        },
+        {
+            "title": "Gebratene Nudeln mit Ente kross",
+            "price": "5,90 €"
+        },
+        {
+            "title": "Gebratene Nudeln mit Hühnerfilet kross",
+            "price": "5,50 €"
+        }
+      ]
+    },
+
+    {
+      "sectionId": "mainCourse",
+      "sectionName": "Hauptspeise",
+      "sectionImage": "/assets/images/food/crispy-duck.jpg",
+      "sectionImageAlt": "crispy duck",
+      "sectionNote": "Dazu mit Paprika, Zucchini, Brokkoli, Bambus & Champignons. Soße nach Wahl: Curry Soße, Erdnusssoße, Mango Soße, Süß-Sauer-Soße oder Chop-Suey Soße (Auf Wunsch vegan)",
+      "sectionItems": [
+        {
+            "title": "Hauptgericht mit Entekross",
+            "price": "8,90 €"
+        },
+        {
+            "title": "Hauptgericht mit Hühnerfiletkross",
+            "price": "8,50 €"
+        },
+        {
+            "title": "Hauptgericht mit Hühnerfleisch",
+            "price": "7,90 €"
+        },
+        {
+            "title": "Vegetarisches Hauptgericht mit Tofu",
+            "price": "6,90 €"
+        }
+      ]
+    },
+
+    {
+      "sectionId": "sushiMenu",
+      "sectionName": "Sushi Menü",
+      "sectionImage": "/assets/images/food/sushi-mix.jpg",
+      "sectionImageAlt": "sushi set mix",
+      "sectionItems": [
+        {
+            "title": "Maki Menü (18 Stk)",
+            "productInfo": "6 Stk. Sake Maki, 6 Stk. Tekka Maki, 6 Stk. California Maki",
+            "price": "8,90 €"
+        },
+        {
+            "title": "Veggie Menü (Vegan, 18 Stk)",
+            "productInfo": "6 Stk. Kappa Maki, 6 Stk. Avocado Maki, 6 Stk. Shinko Maki",
+            "price": "7,50 €"
+        },
+        {
+            "title": "Deluxe Menü (22 Stk)",
+            "productInfo": "6 Stk. Sake Maki, 6 Stk. Tikka Maki, 8 Stk. Philadelphia I-O, 2 Stk. Nigiri: Sake, Ebi",
+            "price": "14,90 €"
+        },
+        {
+            "title": "Rainbow Menu (17 pcs)",
+            "productInfo": "6 Stk. Sake Maki, 6 Stk. Ebi Avocado Maki, 5 Stk. Nigiri: Sake, Maguro, Ika, Tako, Ebi",
+            "price": "12,90 €"
+        },
+        {
+            "title": "Buddha Menü (Vegan, 34 Stk)",
+            "productInfo": "6 Stk. Kappa Maki, 6 Stk. Avocado Maki, 6 Stk. Shinko Maki, 6 Stk. Paprika Maki, 8 Stk. Vegetarisch I-O, 2 Stk. Nigiri Inari",
+            "price": "15,90 €"
+        },
+        {
+            "title": "Regular Menü (10 Stk)",
+            "productInfo": "6 Stk. Sake Maki, 4 Stk. Nigiri: Sake, Surimi, Ika, Ebi",
+            "price": "7,90 €"
+        },
+        {
+            "title": "Partyplatt (40 Stk)",
+            "productInfo": "6 Stk. Sake Maki, 6 Stk. Tikka Maki, 6 Stk. Kappa Maki, 8 Stk. Philadelphia I-O, 8 Stk. California I-O, 6 Stk. Nigiri: 2 Sake, 2 Ebi, 2 Tako",
+            "price": "24,90 €"
+        },
+        {
+            "title": "XXL - Platt (96 Stk)",
+            "productInfo": "12 Stk. Sake Maki, 12 Stk. Tikka Maki, 12 Stk. Kappa Maki, 16 Stk. Philadelphia I-O, 16 Stk. California I-O, 16 Stk. Ebu Avocado I-O, 12 Stk. Nigiri: 4 Sake, 4 Ebi, 4 Tako",
+            "price": "59,90 €"
+        }
+      ]
+    },
+
+    {
+      "sectionId": "sushiNigiri",
+      "sectionName": "Nigiri",
+      "sectionImage": "/assets/images/food/nigiri.jpg",
+      "sectionImageAlt": "nigiri",
+      "sectionNote": "Je Portion 2 Stk.",
+      "sectionItems": [
+        {
+            "title": "Surimi Nigiri",
+            "productInfo": "Krebsfleischimitat",
+            "price": "2,20 €"
+        },
+        {
+            "title": "Tako Nigiri",
+            "productInfo": "Oktopus",
+            "price": "2,20 €"
+        },
+        {
+            "title": "Ika Nigiri",
+            "productInfo": "Tintenfisch",
+            "price": "2,20 €"
+        },
+        {
+            "title": "Saba Nigiri",
+            "productInfo": "Makrele",
+            "price": "2,20 €"
+        },
+        {
+            "title": "Tamago Nigiri",
+            "productInfo": "Omelette",
+            "price": "2,20 €"
+        },
+        {
+            "title": "Inari Nigiri",
+            "productInfo": "Tofu",
+            "price": "2,20 €"
+        },
+        {
+            "title": "Sake Nigiri",
+            "productInfo": "Lachs",
+            "price": "3,40 €"
+        },
+        {
+            "title": "Ebi Nigiri",
+            "productInfo": "Großgarnelen",
+            "price": "3,40 €"
+        },
+        {
+            "title": "Maguro Nigiri",
+            "productInfo": "Thunfisch",
+            "price": "3,60 €"
+        },
+        {
+            "title": "Unagi Nigiri",
+            "productInfo": "Süßwasseraal",
+            "price": "3,60 €"
+        }
+      ]
+    },
+
+    {
+      "sectionId": "sushiMaki",
+      "sectionName": "Maki",
+      "sectionImage": "/assets/images/food/maki.jpg",
+      "sectionImageAlt": "sushi maki roll",
+      "sectionNote": "Je Portion 6 Stk.",
+      "sectionItems": [
+        {
+            "title": "Avocado Maki",
+            "productInfo": "Avocado",
+            "price": "2,90 €"
+        },
+        {
+            "title": "Kappa Maki",
+            "productInfo": "Gurke, Sesam",
+            "price": "2,90 €"
+        },
+        {
+            "title": "Shinko Maki",
+            "productInfo": "Eigelegter Rettich",
+            "price": "2,90 €"
+        },
+        {
+            "title": "Sake Maki",
+            "productInfo": "Lachs",
+            "price": "3,50 €"
+        },
+        {
+            "title": "Sake Avocado Maki",
+            "productInfo": "Lachs, Avocado",
+            "price": "3,80 €"
+        },
+        {
+            "title": "California Maki",
+            "productInfo": "Krebsfleischimitat, Avocado",
+            "price": "3,20 €"
+        },
+        {
+            "title": "Ebi Avocado Maki",
+            "productInfo": "Großgarnelen, Avokado",
+            "price": "3,80 €"
+        },
+        {
+            "title": "Ebi Maki",
+            "productInfo": "Großgarnelen",
+            "price": "3,50 €"
+        },
+        {
+            "title": "Tekka Maki",
+            "productInfo": "Thunfisch",
+            "price": "3,90 €"
+        },
+        {
+            "title": "Unagi Maki",
+            "productInfo": "Süßwasseraal",
+            "price": "3,90 €"
+        }
+      ]
+    },
+
+    {
+      "sectionId": "sushiIO",
+      "sectionName": "Inside Out",
+      "sectionImage": "/assets/images/food/inside-out.jpg",
+      "sectionImageAlt": "sushi inside out",
+      "sectionNote": "Je Portion 8 Stk.",
+      "sectionItems": [
+        {
+            "title": "Vegetarisch I-O",
+            "productInfo": "Gurke, Avocado, Rettich",
+            "price": "4,90 €"
+        },
+        {
+            "title": "California I-O",
+            "productInfo": "Krebsfleischimitat, Avocado",
+            "price": "4,90 €"
+        },
+        {
+            "title": "Alaska I-O",
+            "productInfo": "Lachs, Avocado",
+            "price": "5,90 €"
+        },
+        {
+            "title": "Philadelphia I-O",
+            "productInfo": "Lachs, Gurke, Frischkäse",
+            "price": "5,90 €"
+        },
+        {
+            "title": "Ebi Avocado I-O",
+            "productInfo": "Großgarnelen, Avocado",
+            "price": "5,90 €"
+        },
+        {
+            "title": "Unagi I-O",
+            "productInfo": "Süßwasseraal, Gurke, Unagi Soße, Sesam",
+            "price": "5,90 €"
+        }
+      ]
+    },
+
+    {
+      "sectionId": "sushiFried",
+      "sectionName": "Sushi gebacken",
+      "sectionImage": "/assets/images/food/fried-sushi.jpg",
+      "sectionImageAlt": "sushi gebacken tempura fried",
+      "sectionNote": "Je Portion 6 Stk. Alle mit Gurke, Frischkäse, Unagisoße, Sesam, Avocado",
+      "sectionItems": [
+        {
+            "title": "Sushi mit Lachs",
+            "price": "6,90 €"
+        },
+        {
+            "title": "Sushi Vegetarisch",
+            "price": "5,90 €"
+        },
+        {
+            "title": "Sushi mit Garnelen",
+            "price": "6,90 €"
+        },
+        {
+            "title": "Sushi mit Huhn",
+            "price": "5,90 €"
+        },
+        {
+            "title": "Sushi mit Surimi",
+            "price": "5,90 €"
+        }
+      ]
+    }
+  ]
+}
