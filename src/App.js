@@ -18,7 +18,9 @@ function App() {
 
 			<main className="main-content">
 				<Router>
-					<Home path="/home" />
+          {["/", "/home"].map((path, index) => 
+              <Home path={path} key={index} />
+          )}
 					<Menu path="/menu" />
 					<Order path="/bestellen" />
 					<Contact path="/impressum" />
