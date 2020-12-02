@@ -31,7 +31,7 @@ jobs:
       install:
         - npm ci
       script:
-        - npm run build
+        - CI= npm run build
 
     - stage: test
       name: static
@@ -45,7 +45,7 @@ jobs:
       install:
         - npm ci
       script:
-        - npm run build:test
+        - CI= npm run build:test
         - npm run start:test & # run local server
         - npm run start:test:staging & # run local server
         - npm run test:e2e:cli:production -- --record false
@@ -57,5 +57,5 @@ jobs:
       if: (branch = master) AND type != pull_request
       install: npm ci
       script:
-        - npm run build
+        - CI= npm run build
         - npm run deploy
