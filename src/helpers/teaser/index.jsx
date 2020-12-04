@@ -17,7 +17,7 @@ export const Teaser = (props) => {
   
   return (
     <section className={`${typeClass()}`}>
-      <div className={`${props.type === 'center' ? '' : 'teaser__in-grid'}`}>
+      <div className={`${props.type === 'center' ? 'teaser__in-center' : 'teaser__in-grid'}`}>
         {
           props.image_src && 
           <div className="teaser__item teaser__image-wrapper">
@@ -42,11 +42,13 @@ export const Teaser = (props) => {
           >
             {props.text}
           </p>
-          <Link
-            link_url={props.link_url} 
-          >
-            {props.link_text}
-          </Link>
+          {props.link_url ?
+            <Link
+              link_url={props.link_url} 
+            >
+              {props.link_text}
+            </Link>
+          : null}
         </div>   
       </div>
     </section>

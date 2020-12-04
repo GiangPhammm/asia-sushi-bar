@@ -8,8 +8,9 @@ import Order from './pages/bestellen'
 import Contact from './pages/impressum'
 import Policy from './pages/dsgvo'
 import Footer from './helpers/footer/index'
+import ScrollToTop from './helpers/scrolltotop'
 
-import './App.scss';
+import './App.scss'
 
 function App() {
 	return (
@@ -21,10 +22,10 @@ function App() {
           {["/", "/home"].map((path, index) => 
               <Home path={path} key={index} />
           )}
-					<Menu path="/menu" />
-					<Order path="/bestellen" />
-					<Contact path="/impressum" />
-					<Policy path="/dsgvo" />
+          <Menu path="/menu" />
+          <Order path="/bestellen" />
+          <Contact path="/impressum" />
+          <Policy path="/dsgvo" />
 				</Router>
 			</main>
 			<Footer></Footer>
