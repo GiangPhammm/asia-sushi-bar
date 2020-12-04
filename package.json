@@ -18,7 +18,8 @@
     "build": "CI=false react-scripts build",
     "test": "CI=false react-scripts test",
     "eject": "CI=false react-scripts eject",
-    "sitemap": "babel-node ./src/config/sitemap-generator.js"
+    "sitemap": "babel-node ./src/config/sitemap-generator.js",
+    "predeploy": "npm run sitemap"
   },
   "eslintConfig": {
     "extends": "react-app"
