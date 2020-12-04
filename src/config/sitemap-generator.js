@@ -8,10 +8,9 @@ require("babel-register")({
   function generateSitemap() {
       return (
         new Sitemap(router)
-            .build("https://www.asiasushibar.com")
+            .build("https://asiasushibar.com")
             .save("./public/sitemap.xml")
       );
   }
   
   generateSitemap();
-  
