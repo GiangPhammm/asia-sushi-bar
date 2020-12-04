@@ -15,11 +15,23 @@
             "title": "Online Bestellen",
             "sub_title": "bei",
             "text": "Sie können unser Essen bestellen und es über Lieferando liefern lassen",
-            "image": "/assets/images/logo/lieferando.png",
+            "image": "/assets/images/logo/lieferando2.png",
             "image_alt": "liefer service lieferando",
             "button": "Jetzt bestellen",
             "button_relation": "nofollow",
             "button_url": "https://www.lieferando.de/asia-sushi-bar-adlershof"
+        },
+
+        {
+            "key": "option3",
+            "title": "Online Bestellen",
+            "sub_title": "bei",
+            "text": "Bestellen Sie bei deliver24 und selbst abholen oder liefern lassen",
+            "image": "/assets/images/logo/deliver24.png",
+            "image_alt": "bestellen service deliver24",
+            "button": "Jetzt bestellen",
+            "button_relation": "nofollow",
+            "button_url": "https://asia-sushi-bar.essen-bestellen.eu/sushi-menue"
         }
         
     ]
