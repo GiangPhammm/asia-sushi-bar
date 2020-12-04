@@ -8,7 +8,7 @@ import Order from './pages/bestellen'
 import Contact from './pages/impressum'
 import Policy from './pages/dsgvo'
 import Footer from './helpers/footer/index'
-import ScrollToTop from './helpers/scrolltotop'
+// import ScrollToTop from './helpers/scrolltotop'
 
 import './App.scss'
 
@@ -20,7 +20,7 @@ function App() {
 			<main className="main-content">
 				<Router>
           {["/", "/home"].map((path, index) => 
-              <Home path={path} key={index} />
+            <Home path={path} key={index} />
           )}
           <Menu path="/menu" />
           <Order path="/bestellen" />
