@@ -11,7 +11,7 @@ class Menu extends Component {
     document.querySelector('meta[name="description"]').content="In Asia-Sushi-Bar bieten wir Gerichte aus verschiedenen asiatische Ländern an. Mit dabei sind warme Gerichte, Suppe und Sushi. Hier siehst du alle auf einen Blick.";
     return (
       <div className="main-content-container">
-        <h1 className="main-content-title">Speisenkarte</h1>
+        <h2 className="main-content-title">Speisenkarte</h2>
         {/* <div className="menu__wrapper">
             {
               anchors.map((item) => {

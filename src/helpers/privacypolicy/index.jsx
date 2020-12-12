@@ -8,7 +8,7 @@ var privacyPolicy = data.sections;
 export const PolicyData = () => {
   return (
     <div className="policy">
-      <h1 className="tab-name">Datenschutzerklärung</h1>
+      <h2 className="tab-name">Datenschutzerklärung</h2>
       {
         privacyPolicy.map((section) => {
           return (

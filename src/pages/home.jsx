@@ -10,7 +10,7 @@ class Home extends Component {
       <div className="main-content-container">
         <Teaser  
           type="center"
-          headline="ASIATISCHE KÜCHE IN ADLERSHOF"
+          headline="ASIATISCHE KÜCHE IN BERLIN ADLERSHOF"
           text="Wir sind für euch IMMER DA ob Sommer, Winter, Regen, Schnee. Selbst zu dieser Krise, in guten wie in schlechten Zeiten.
           Jedenfalls von 11:00 Uhr bis 21:00 Uhr"
         />

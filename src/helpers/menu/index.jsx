@@ -17,7 +17,7 @@ export const MenuItems = () => {
                   id={section.sectionId}
                   className="menu__section"
                 >
-                  <h2 className="menu__section-name">{section.sectionName}</h2>
+                  <h3 className="menu__section-name">{section.sectionName}</h3>
                   <img 
                     className="menu__section-image"
                     loading="lazy"
