@@ -3,7 +3,7 @@ import {Teaser} from '../helpers/teaser/index';
 
 class Home extends Component {
   render () {
-    document.title ="Asia-Sushi-Bar - Asiatische Küche in Adlershof"; 
+    document.title ="Asia-Sushi-Bar - Asiatisches Restaurant in Berlin"; 
     document.querySelector('meta[name="description"]').content="Herzlich willkommen zu Asia-Sushi-Bar. Wir bieten viele verschiedene asiatische Gerichte an. Auch zuhause kannst du einfach anrufen oder online bestellen, danach selbst abholen oder beliefern lassen.";
       
     return (
