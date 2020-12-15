@@ -109,11 +109,15 @@
 
   @media screen and (max-width: 550px) {
     &__text {
-      padding: 2rem;
+      padding: 2rem 1.5rem;
     }
 
     &__text {
       font-size: 15px;
+    }
+
+    .header-title {
+      font-size: 13px;
     }
 
     .text-highlighted {

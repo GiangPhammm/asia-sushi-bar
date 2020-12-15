@@ -32,7 +32,7 @@ function Header() {
       <div className="main-header__wrapper">
       <div className="main-header__text">
         <h1 className="main-header__text-wrapper header-title">
-          <p>Asiatische Küche in </p>
+          <p>Asiatisches Restaurant in </p>
           <p className="text-highlighted">BERLIN ADLERSHOF</p>
         </h1>
         <div className="main-header__text-wrapper header-subtitle">
