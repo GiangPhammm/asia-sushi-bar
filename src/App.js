@@ -4,7 +4,7 @@ import Header from './helpers/header/index'
 import Home from './pages/home'
 import Menu from './pages/menu'
 import Order from './pages/bestellen'
-// import Catering from './pages/catering'
+import Catering from './pages/catering'
 import Contact from './pages/impressum'
 import Policy from './pages/dsgvo'
 import Footer from './helpers/footer/index'
@@ -24,6 +24,7 @@ function App() {
           )}
           <Menu path="/menu" />
           <Order path="/bestellen" />
+          <Catering path="/catering" />
           <Contact path="/impressum" />
           <Policy path="/dsgvo" />
 				</Router>

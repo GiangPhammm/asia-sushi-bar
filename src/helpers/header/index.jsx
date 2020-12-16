@@ -17,10 +17,10 @@ function Header() {
 			text: 'Bestellen',
 			path: '/bestellen',
 		},
-		// {
-		// 	text: 'Catering',
-		// 	path: '/catering',
-		// },
+		{
+			text: 'Catering',
+			path: '/catering',
+		},
 		{
 			text: 'Impressum',
 			path: '/impressum',

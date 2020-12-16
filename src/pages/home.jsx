@@ -10,15 +10,20 @@ class Home extends Component {
       <div className="main-content-container">
         <Teaser  
           type="center"
-          headline="ASIATISCHES RESTAURANT IN BERLIN ADLERSHOF"
-          text="Wir sind für euch IMMER DA ob Sommer, Winter, Regen, Schnee. Selbst zu dieser Krise, in guten wie in schlechten Zeiten.
-          Jedenfalls von 11:00 Uhr bis 21:00 Uhr"
+          headline="WIR WÜNSCHEN IHNEN FROHE WEIHNACHTEN UND EINEN GUTEN RUTSCH INS NEUE JAHR!"
+          text="Asia - Sushi - Bar Team"
+        />
+
+        <Teaser  
+          headline="Asiatisches Restaurant in Berlin Adlershof"
+          text="Wir sind für euch IMMER DA ob Sommer, Winter, Regen, Schnee. Selbst zu dieser Krise, in guten wie in schlechten Zeiten. Jedenfalls von 11:00 Uhr bis 21:00 Uhr"
+          image_src="/assets/images/restaurant/restaurant1.png"
+          image_alt="liefern"
         />
         
         <Teaser  
           headline="Lieferservice"
-          text="Aufgrund des Corona Virus liefern wir bei dem gebiet mit der Postleitzahl 12489.
-              Einfach Anrufen unter 030 40745645"
+          text="Wir bringen Ihnen das Essen schnell und frisch. Einfach Anrufen unter 030 40745645"
           image_src="/assets/images/offers/lieferservice.png"
           image_alt="liefern"
           link_text="Zum Bestellen"
