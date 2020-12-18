@@ -1,6 +1,7 @@
 {
   "footerInfo": [
     {
+      "key": "condition",
       "conditions": [
         {
           "key": "policy",
@@ -10,6 +11,7 @@
       ]
     },
     {
+      "key": "media",
       "media": [
         {
           "url": "https://de-de.facebook.com/Asia-Sushi-Bar-355387961310604/",

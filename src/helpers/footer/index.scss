@@ -3,7 +3,7 @@
   color: #f2f4f3;
 
   &__wrapper {
-    padding: 32px 16px;
+    padding: 32px;
     max-width: 50rem;
     margin: auto;
   }
@@ -58,7 +58,7 @@
     font-size: 15px;
 
     &__items {
-      grid-template-columns: 1fr;
+      display: block
     }
 
     &__column,

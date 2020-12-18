@@ -1,6 +1,6 @@
 import React from 'react';
-import footerItemList from './footerItems.json';
-import footerInformation from './footerInfo.json';
+import footerItemList from '../../assets/json/footerItems.json';
+import footerInformation from '../../assets/json/footerInfo.json';
 import './index.scss';
 
 var footerColumns = footerItemList.footerColumns;
@@ -14,7 +14,8 @@ export const Footer = () => {
           {
             footerColumns.map((col) => {
               return (
-                <div className="footer__column">
+                <div key={col.column}
+                     className="footer__column">
                   <p className="footer__column-name">{col.column}</p>
                   <ul className="footer__list">
                     {
@@ -45,7 +46,8 @@ export const Footer = () => {
           {
             footerInfo.map((col) => {
               return (
-                <div className="footer__column">
+                <div key={col.key}
+                     className="footer__column">
                 {
                   "conditions" in col &&
                   col.conditions.map((c) => {

@@ -40,6 +40,10 @@
   @media screen and (max-width: 550px) {
     &-list {
       grid-template-columns: 1fr;
+
+      &__item {
+        margin: 10px 0;
+      }
     }
   }
 }

@@ -27,9 +27,11 @@
       "column": "Öffnungszeiten",
       "items": [
         {
+          "itemKey": "i5",
           "title": "Montag bis Freitag"
         },
         {
+          "itemKey": "i6",
           "title": "11:00 Uhr - 21:00 Uhr"
         }
       ]

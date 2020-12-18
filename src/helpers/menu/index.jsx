@@ -1,5 +1,5 @@
 import React from 'react';
-import menu from './menu.json';
+import menu from '../../assets/json/menu.json';
 
 import './index.scss';
 
@@ -7,7 +7,7 @@ var menuItems = menu.menuItems;
 
 export const MenuItems = () => {
   return (
-    <div className="menu">
+    <div className="main-content-section menu">
         <ul className="menu__wrapper">
           {
             menuItems.map((section) => {

@@ -1,0 +1,65 @@
+{
+    "items": [
+        {
+            "name": "Heimann Ingenieure GmbH",
+            "url": "https://www.google.com/maps/place/Heimann+Ingenieure+GmbH/@52.5035306,13.4371775,17z/data=!3m1!4b1!4m5!3m4!1s0x47a84e4edd6f0cf1:0x200fe0b9395dc5ce!8m2!3d52.5035306!4d13.4393662?hl=de-DE",
+            "add": "Köpenicker Str. 9, 10997 Berlin",
+            "tel": "030 617917"
+        },
+
+        {
+            "name": "DHI WASY GmbH",
+            "url": "https://www.google.com/maps/place/DHI+WASY+GmbH/@52.429272,13.5349543,17z/data=!3m1!4b1!4m5!3m4!1s0x47a8479bb4a89f87:0x44cc5aa150d83bc7!8m2!3d52.429272!4d13.537143?hl=de-DE",
+            "add": "Volmerstraße 8, 12489 Berlin",
+            "tel": "030 6799980"
+        },
+
+        {
+            "name": "Würth Elektronik eiSos GmbH & Co. KG | Competence Center Berlin",
+            "url": "https://www.google.com/maps/place/W%C3%BCrth+Elektronik+eiSos+GmbH+%26+Co.+KG+%7C+Competence+Center+Berlin/@52.4289125,13.5353774,17z/data=!3m1!4b1!4m5!3m4!1s0x47a84631ebc288a9:0x4a7d83b73dd8cf18!8m2!3d52.4289125!4d13.5375661?hl=de-DE",
+            "add": "Volmerstraße 10, 12489 Berlin",
+            "tel": "07942 99453500"
+        },
+        
+        {
+            "name": "AEH Ingenieure",
+            "url": "https://www.google.com/maps/place/AEH+Ingenieure/@52.512647,13.4154303,17z/data=!3m1!4b1!4m5!3m4!1s0x47a851e53c96b569:0xb0d451f0f6d39dd0!8m2!3d52.512647!4d13.417619?hl=de-DE",
+            "add": "Brückenstraße 5, 10179 Berlin",
+            "tel": "030 762392360"
+        }, 
+
+        {
+            "name": "Tonbüro GmbH",
+            "url": "https://www.google.com/maps/place/Tonb%C3%BCro+GmbH/@52.432179,13.5361003,17z/data=!3m1!4b1!4m5!3m4!1s0x47a8462e688e3cf7:0xb5d80ec38de26ea7!8m2!3d52.432179!4d13.538289?hl=de-DE",
+            "add": "Ernst-Augustin-Straße 12, 12489 Berlin",
+            "tel": "030 644996300"
+        },
+
+        {
+            "name": "Ufa Fiction Gmbh",
+            "url": "https://www.google.com/maps/place/Ufa+Fiction+Gmbh/@52.5118317,13.3038142,17z/data=!3m1!4b1!4m5!3m4!1s0x47a851206398eb01:0x37641bbef9978d48!8m2!3d52.5118317!4d13.3060029?hl=de-DE",
+            "add": "Bismarckstraße 42/43, 10627 Berlin"
+        },
+
+        {
+            "name": "Corning Optical Communications GmbH & Co. KG",
+            "url": "https://www.google.com/maps/place/Corning+Optical+Communications+GmbH+%26+Co.+KG/@52.5101385,13.3823835,17z/data=!3m1!4b1!4m5!3m4!1s0x47a851cfcaf97c77:0xa930d98fd24200c0!8m2!3d52.5101385!4d13.3845722?hl=de-DE",
+            "add": "Leipziger Str. 121, 10117 Berlin",
+            "tel": "+800 2676 4641"
+        },
+
+        {
+            "name": "Humboldt-Universität zu Berlin Math. - Nat. Fakultät",
+            "url": "https://www.google.com/maps/place/Humboldt-Universit%C3%A4t+zu+Berlin+Math.+-+Nat.+Fakult%C3%A4t/@52.4293949,13.5281943,17z/data=!3m1!4b1!4m5!3m4!1s0x47a8463aa3589635:0xdfd75ca777f0de1a!8m2!3d52.4293949!4d13.530383?hl=de-DE",
+            "add": "Rudower Chaussee 25, 12489 Berlin",
+            "tel": "030 20933028"
+        },
+
+        {
+            "name": "STMicroelectronics GmbH",
+            "url": "https://www.google.com/maps/place/STMicroelectronics+GmbH/@48.1455687,11.6801517,17z/data=!3m1!4b1!4m5!3m4!1s0x479de21a40418091:0x2c7e385fc017b83b!8m2!3d48.1455687!4d11.6823404?hl=de-DE",
+            "add": "Bahnhofstraße 18, 85609 Aschheim",
+            "tel": "089 460060"
+        }
+    ]
+}

@@ -16,7 +16,7 @@ export const Teaser = (props) => {
   };
   
   return (
-    <section className={`${typeClass()}`}>
+    <section className={`main-content-section ${typeClass()}`}>
       <div className={`${props.type === 'center' ? 'teaser__in-center' : 'teaser__in-grid'}`}>
         {
           props.image_src && 

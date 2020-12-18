@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import MenuItems from '../helpers/menu/index';
 import {Link} from '../helpers/link/index'
-import LinkAnchors from '../helpers/menu/linkAnchor.json';
+import LinkAnchors from '../assets/json/linkAnchor.json';
 
 var anchors = LinkAnchors.anchorList;
 

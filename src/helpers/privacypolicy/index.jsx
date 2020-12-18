@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './policy.json';
+import data from '../../assets/json/policy.json';
 
 import './index.scss';
 
@@ -7,7 +7,7 @@ var privacyPolicy = data.sections;
 
 export const PolicyData = () => {
   return (
-    <div className="policy">
+    <div className="main-content-section policy">
       <h2 className="tab-name">Datenschutzerklärung</h2>
       {
         privacyPolicy.map((section) => {

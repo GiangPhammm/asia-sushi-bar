@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './contactData.json';
+import data from '../../assets/json/contactData.json';
 
 import './index.scss';
 
@@ -7,7 +7,7 @@ var contactData = data.contactData;
 
 export const ContactData = () => {
   return (
-    <div className="contact">
+    <div className="main-content-section contact">
       <h2 className="tab-name">Asia-Sushi-Bar</h2>
       {
         contactData.map((item) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import options from './orderOptions.json';
+import options from '../../assets/json/orderOptions.json';
 
 import './index.scss';
 
@@ -7,7 +7,7 @@ var optionList = options.optionList;
 
 export const OptionItems = () => {
   return (
-    <div className="order">
+    <div className="main-content-section order">
         <ul className="order-list">
           {
             optionList.map((option) => {
