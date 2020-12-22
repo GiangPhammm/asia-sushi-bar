@@ -20,7 +20,6 @@ export const MenuItems = () => {
                   <h3 className="menu__section-name">{section.sectionName}</h3>
                   <img 
                     className="menu__section-image"
-                    loading="lazy"
                     src={section.sectionImage}
                     alt={section.sectionImageAlt}
                   />

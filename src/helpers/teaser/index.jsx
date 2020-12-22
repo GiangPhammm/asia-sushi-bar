@@ -23,7 +23,6 @@ export const Teaser = (props) => {
           <div className="teaser__item teaser__image-wrapper">
             <img 
               className="teaser__image" 
-              loading="lazy" 
               src={props.image_src} 
               alt={props.image_alt}
             />
