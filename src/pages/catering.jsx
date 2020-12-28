@@ -11,6 +11,7 @@ class Catering extends Component {
     document.querySelector('meta[name="description"]').content="Catering verfügbar!";
     return (
       <div className="main-content-container">
+        <h1 className="main-content-title">Cateringservice in Berlin</h1>
         <Gallery></Gallery>
         <div className="main-content-section">
           <h2 className="main-content-title">Partnerunternehmen</h2>

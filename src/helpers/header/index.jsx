@@ -31,10 +31,10 @@ function Header() {
     <header className="main-header">
       <div className="main-header__wrapper">
       <div className="main-header__text">
-        <h1 className="main-header__text-wrapper header-title">
+        <div className="main-header__text-wrapper header-title">
           <p>Asiatisches Restaurant in </p>
           <p className="text-highlighted">BERLIN ADLERSHOF</p>
-        </h1>
+        </div>
         <div className="main-header__text-wrapper header-subtitle">
           <p>Jetzt bestellen </p>
           <p className="text-highlighted">030 40745645</p>

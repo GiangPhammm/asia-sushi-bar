@@ -31,11 +31,24 @@ export const Teaser = (props) => {
         <div 
           className={`teaser__item ${props.type === 'center' ? 'teaser-center-content' : 'teaser-content'}`}
         >
-          <h2
-            className={props.type === 'center' ? 'teaser-center-content__headline' : 'teaser-content__headline'}
-          >
-            {props.headline}
-          </h2>
+          {
+            props.type === 'center' &&
+            <h1
+              className='teaser-center-content__headline'
+            >
+              {props.headline}
+            </h1>
+          }
+
+          {
+            props.type !== 'center' &&
+            <h2
+              className='teaser-content__headline'
+            >
+              {props.headline}
+            </h2>
+          }
+          
           <p 
             className={props.type === 'center' ? 'teaser-center-content__text' : 'teaser-content__text'}
           >

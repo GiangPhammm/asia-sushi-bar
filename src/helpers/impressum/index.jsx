@@ -8,7 +8,7 @@ var contactData = data.contactData;
 export const ContactData = () => {
   return (
     <div className="main-content-section contact">
-      <h2 className="tab-name">Asia-Sushi-Bar</h2>
+      <h1 className="tab-name">Asia-Sushi-Bar</h1>
       {
         contactData.map((item) => {
           return (

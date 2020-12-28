@@ -10,15 +10,8 @@ class Home extends Component {
       <div className="main-content-container">
         <Teaser  
           type="center"
-          headline="WIR WÜNSCHEN IHNEN FROHE WEIHNACHTEN UND EINEN GUTEN RUTSCH INS NEUE JAHR!"
-          text="Asia - Sushi - Bar Team"
-        />
-
-        <Teaser  
           headline="Asiatisches Restaurant in Berlin Adlershof"
           text="Wir sind für euch IMMER DA ob Sommer, Winter, Regen, Schnee. Selbst zu dieser Krise, in guten wie in schlechten Zeiten. Jedenfalls von 11:00 Uhr bis 21:00 Uhr"
-          image_src="/assets/images/restaurant/asia-sushi-bar-front-door.png"
-          image_alt="Asia-Sushi-Bar asiatisches restaurant in Berlin"
         />
         
         <Teaser  
