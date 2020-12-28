@@ -32,8 +32,8 @@ function Header() {
       <div className="main-header__wrapper">
       <div className="main-header__text">
         <div className="main-header__text-wrapper header-title">
-          <p>Asiatisches Restaurant in </p>
-          <p className="text-highlighted">BERLIN ADLERSHOF</p>
+          <p>Asiatische Küche in </p>
+          <p className="text-highlighted">ADLERSHOF</p>
         </div>
         <div className="main-header__text-wrapper header-subtitle">
           <p>Jetzt bestellen </p>
