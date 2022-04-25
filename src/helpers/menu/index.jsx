@@ -36,7 +36,7 @@ export const MenuItems = () => {
                               <span className="item-title">{item.title}</span>
                               <span className="item-info">{item.productInfo}</span>
                             </div>
-                            <div className="item-price">{item.price}</div>
+                            {/* <div className="item-price">{item.price}</div> */}
                             
                         </li>
                         )
