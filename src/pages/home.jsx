@@ -13,15 +13,6 @@ class Home extends Component {
           headline="Asia Sushi Bar - Asiatisches Restaurant in Adlershof"
           text="Wir sind für euch IMMER DA ob Sommer, Winter, Regen, Schnee. Selbst zu dieser Krise, in guten wie in schlechten Zeiten. Jedenfalls von 11:00 Uhr bis 21:00 Uhr"
         />
-        
-        <Teaser  
-          headline="Lieferservice"
-          text="Wir bringen Ihnen das Essen schnell und frisch. Einfach Anrufen unter 030 40745645"
-          image_src="/assets/images/offers/lieferservice.png"
-          image_alt="liefern"
-          link_text="Zum Bestellen"
-          link_url="/bestellen"
-        />
 
         <div className="main-content-section">
           <iframe 

@@ -14,10 +14,6 @@ function Header() {
 			path: '/menu',
 		},
 		{
-			text: 'Bestellen',
-			path: '/bestellen',
-		},
-		{
 			text: 'Catering',
 			path: '/catering',
 		},
